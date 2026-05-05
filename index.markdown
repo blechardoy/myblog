@@ -3,17 +3,16 @@ layout: page
 title: Home
 ---
 
-# Hi, I'm Your Name 👋
+# Bastien Lechardoy👋
 
 Welcome to my personal website.
 
 ## About me
-I am a developer / student / creator.
+I am a developer a research engineer at Institut Polytechnique de Paris
 
-## Projects
-- Project 1
-- Project 2
-- Project 3
 
 ## Contact
-📧 your@email.com
+📧 bastien.lechardoy@telecom-paris.fr
+
+## Code
+https://github.com/blechardoy
