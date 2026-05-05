@@ -8,7 +8,7 @@ title: Home
 Welcome to my personal website.
 
 ## About me
-I am a developer a research engineer at Institut Polytechnique de Paris
+I am a research engineer at Institut Polytechnique de Paris
 
 
 ## Contact
