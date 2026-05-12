@@ -4,10 +4,9 @@ title: A propos
 permalink: /about/
 ---
 
-Je suis Bastien Lechardoy, research engineer a l'Institut Polytechnique de Paris.
+I am Bastien Lechardoy, research engineer at Institut Polytechnique de Paris.
 
-Ce site rassemble une presentation courte, mes informations de contact et les
-liens utiles vers mon travail public.
+This site gives a short presentation about my work, my contact information and the useful links towards my public work.
 
 ## Contact
 
