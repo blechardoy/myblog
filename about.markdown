@@ -1,18 +1,16 @@
 ---
 layout: page
-title: About
+title: A propos
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Je suis Bastien Lechardoy, research engineer a l'Institut Polytechnique de Paris.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Ce site rassemble une presentation courte, mes informations de contact et les
+liens utiles vers mon travail public.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Contact
 
+Email : [bastien.lechardoy@telecom-paris.fr](mailto:bastien.lechardoy@telecom-paris.fr)
 
-[jekyll-organization]: https://github.com/jekyll
+GitHub : [github.com/blechardoy](https://github.com/blechardoy)

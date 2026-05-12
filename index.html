@@ -1,0 +1,72 @@
+---
+layout: home
+title: Accueil
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+
+<main class="home-shell">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Research engineer</p>
+      <h1>Bastien Lechardoy</h1>
+      <p class="lead">
+        I am currently a research engineer at Télécom Paris,
+        working on dynamic trajectory optimization. <br>
+        My research interests lie at the intersection of motion planning and reinforcement learning,
+        with a particular focus on interpretable decision-making for autonomous systems. <br>
+        I aim to pursue a PhD by the end of the year,
+        continuing this work on learning-based planning methods.
+      </p>
+      <div class="hero-actions" aria-label="Liens principaux">
+        <a class="button primary" href="mailto:{{ site.email }}">Me contacter</a>
+        <a class="button secondary" href="https://github.com/{{ site.github_username }}">GitHub</a>
+      </div>
+    </div>
+
+    <div class="profile-panel" aria-label="Profil">
+      <div class="avatar-frame">
+        <img class="profile-photo" src="{{ '/assets/img/id.png' | relative_url }}" alt="Photo de Bastien Lechardoy">
+      </div>
+      <div>
+        <p class="panel-label">Affiliation</p>
+        <p class="panel-title">Institut Polytechnique de Paris</p>
+        <p class="panel-text">Research on interpretable decision-making for autonomous systems</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-heading">
+      <p class="eyebrow">Focus</p>
+      <h2>What I am working on</h2>
+    </div>
+    <div class="grid">
+      <article class="card">
+        <h3>Multi-agent interaction</h3>
+        <p>To model problems where several agents play against each other in relevant game settings</p>
+      </article>
+      <article class="card">
+        <h3>Method benchmarking</h3>
+        <p>To implement and compare fast and scalable methods for trajectory optimization</p>
+      </article>
+      <article class="card">
+        <h3>Academics skills</h3>
+        <p>To learn and and practice how to define interesting problems and write papers to share results with the research community </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- <section class="section split">
+    <div>
+      <p class="eyebrow">A propos</p>
+      <h2>Un site simple, net, pret a evoluer</h2>
+    </div>
+    <p>
+      Ce template peut servir de carte de visite, portfolio de recherche, page
+      de contact ou point d'entree vers des publications et projets. Il est
+      compatible avec GitHub Pages et peut etre personnalise directement depuis
+      les fichiers du depot.
+    </p>
+  </section> -->
+</main>
