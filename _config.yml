@@ -22,8 +22,8 @@ title: Bastien Lechardoy
 email: bastien.lechardoy@telecom-paris.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Research engineer at Institut Polytechnique de Paris.
-baseurl: "/myblog" # the subpath of your site, e.g. /blog
-url: "https://www.bastienlechardoy.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.bastien-lechardoy.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  blechardoy
 
 # Build settings
