@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "fr" }}">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
 
   <body>
-    {% include header.html %}
+    <header class="portfolio-header">
+      <div class="portfolio-header-inner">
+        <nav aria-label="Primary navigation">
+          <a class="cv-link" href="{{ '/assets/Curriculum_Vitae_Bastien_Lechardoy.pdf' | relative_url }}" target="_blank" rel="noopener">CV</a>
+        </nav>
+      </div>
+    </header>
 
     <main class="page-content home-page" aria-label="Content">
       {{ content }}
     </main>
-
-    {% include footer.html %}
   </body>
 </html>
