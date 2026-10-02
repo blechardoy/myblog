@@ -8,35 +8,63 @@ title: Home
 <main class="home-shell">
   <section class="hero">
     <div class="hero-copy">
-      <p class="eyebrow">Research engineer</p>
-      <h1>Bastien Lechardoy</h1>
+      <h1><strong>Bastien</strong> Lechardoy</h1>
+      <a class="hero-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
       <p class="lead">
         I am currently a research engineer at <a href="https://www.telecom-paris.fr/" target="_blank" rel="noopener">Télécom Paris</a>, <a href="https://www.ip-paris.fr/en" target="_blank" rel="noopener">Institut Polytechnique de Paris</a> working on dynamic trajectory optimization.
         My research interests lie at the intersection of motion planning and reinforcement learning, with a particular focus on interpretable decision-making for autonomous systems.
         I currently work on these topics with <a href="https://bakirtzis.net" target="_blank" rel="noopener">Georgios Bakirtzis</a>.<br>
       </p>
-      <div class="hero-actions" aria-label="Main links">
-        <a class="button primary" href="mailto:{{ site.email }}">Contact me</a>
-        <a class="button secondary" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
-        <a class="button secondary" href="https://www.linkedin.com/in/bastien-lechardoy-2618ab24a/" target="_blank" rel="noopener">LinkedIn</a>
-      </div>
     </div>
 
     <img class="profile-photo" src="{{ '/assets/img/id.png' | relative_url }}" alt="Portrait of Bastien Lechardoy">
   </section>
 
   <section class="news" aria-labelledby="news-title">
-    <div class="section-heading">
-      <p class="eyebrow">Latest updates</p>
-      <h2 id="news-title">News</h2>
-    </div>
+    <h2 id="news-title">news</h2>
 
     <ol class="news-list">
       <!-- Duplicate a news-item block below to add a new update. -->
       <li class="news-item">
         <time datetime="2026-09">September 2026</time>
-        <p>Gave a talk at Inria Lille about multi-branch contingency games for motion planning </p>
+        <p>Gave a talk at Inria Lille about multi-branch contingency games for motion planning.</p>
       </li>
     </ol>
+  </section>
+
+  <section class="papers" aria-labelledby="papers-title">
+    <h2 id="papers-title">selected publications</h2>
+
+    <div class="paper-list">
+      <!--
+      Duplicate this article to add a publication:
+      <article class="paper-item">
+        <p class="paper-meta">Conference or journal, Year</p>
+        <h3>Paper title</h3>
+        <p class="paper-authors">Author One, Author Two, and Bastien Lechardoy</p>
+        <div class="paper-links">
+          <a href="paper-url">Paper</a>
+          <a href="code-url">Code</a>
+        </div>
+      </article>
+      -->
+      <article class="paper-item">
+        <h3>Cascaded consensus splitting for multi-branch contingency games</h3>
+        <p class="paper-authors"><strong>B. Lechardoy</strong>, P. de las Heras Molins, T. Lahire, L. Pautet, D. Filliat, D. Fridovich-Keil, and G. Bakirtzis</p>
+        <p class="paper-meta">Preprint, 2026</p>
+        <div class="paper-actions">
+          <details class="abstract-disclosure">
+            <summary>Abstract</summary>
+            <div class="abstract-text">
+              <p>Contingency games enable agents to anticipate and plan for other agents' hypothetical intents by constructing trajectories with a shared prefix and intent-dependent branches. While contingency games capture intent uncertainty, existing formulations rely on a single branching time, oversimplifying interactions in which different agents' intentions are revealed at different times.</p>
+              <p>Moreover, the computational cost of such problems grows rapidly with the number of agents and intents, as all scenario-dependent best responses must be solved jointly. We introduce a multi-branch contingency architecture in which sources of intent uncertainty can be resolved progressively at different branching times, allowing the planned trajectories to adapt to the asynchronous revelation of intents. We also develop an ADMM-based solver that exploits scenario-level parallelism.</p>
+              <p>Experiments on tightly coupled three-agent interactions support that the proposed architecture outperforms the conventional single-branch while achieving a lower mean receding-horizon solve time.</p>
+            </div>
+          </details>
+          <a href="https://arxiv.org/abs/2609.37612" target="_blank" rel="noopener">arXiv</a>
+          <a href="https://arxiv.org/pdf/2609.37612" target="_blank" rel="noopener">PDF</a>
+        </div>
+      </article>
+    </div>
   </section>
 </main>
